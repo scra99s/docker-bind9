@@ -1,0 +1,10 @@
+$TTL        86400 ;
+@           IN    SOA     ns01.jerra.io.  root.jerra.io.  (
+                          2               ; Serial
+                          1h              ; Refresh
+                          15m             ; Retry
+                          1d              ; Expire
+                          1h              ; Minimum
+                                                          );
+                  A       192.168.1.24 ; This means that naughydomain.com gets directed to the designated address
+*           IN    A       192.168.1.24 ; This wildcard entry means that any permutation of xxx.naughtydomain.com gets directed to the designated address

@@ -1,0 +1,15 @@
+$TTL	      86400 ;
+@           IN    SOA     ns01.jerra.io.  root.jerra.io.  (
+                          2               ; Serial
+                          1h              ; Refresh
+                          15m             ; Retry
+                          1d              ; Expire
+                          1h              ; Minimum
+                                                          );
+            IN    NS      ns01.jerra.io.
+
+1           IN    PTR     gateway.jerra.io.
+100         IN    PTR     ns01.jerra.io.
+200         IN    PTR     esxi.jerra.io.
+201         IN    PTR     vcenter.jerra.io.
+292         IN    PTR     nsx.jerra.io.

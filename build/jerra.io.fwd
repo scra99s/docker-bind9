@@ -1,0 +1,16 @@
+$TTL        86400 ;
+@           IN    SOA     ns01.jerra.io.  root.jerra.io.  (
+                          2               ; Serial
+                          1h              ; Refresh
+                          15m             ; Retry
+                          1d              ; Expire
+                          1h              ; Minimum
+                                                          );
+@           IN    NS      ns01.jerra.io.
+
+gateway     IN    A       192.168.1.1
+ns01        IN    A       192.168.1.100
+esxi        IN    A       192.168.1.200
+vcenter     IN    A       192.168.1.201
+nsx         IN    A       192.168.1.203
+vio         IN    A       192.168.1.204
