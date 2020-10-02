@@ -51,7 +51,8 @@ $ docker kill bind9MC \
 ### __(RTFM)__
 ___
 This configuration stack was loosely generated from info found in 'DNS for Rocket Scientists':
-https://www.zytrax.com/books/dns/. 
+
+Link: https://www.zytrax.com/books/dns/
 
 This is a an extraordinarily good DNS resource IMO.
 
