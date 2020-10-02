@@ -53,6 +53,6 @@ ___
 This configuration stack was loosely generated from info found in 'DNS for Rocket Scientists':
 https://www.zytrax.com/books/dns/. 
 
-This is a an exrtaoridnarily good DNS resource IMO.
+This is a an extraordinarily good DNS resource IMO.
 
 They have also written a book, 'Pro DNS and BIND' by Ronald (Ron) Aitchison.
