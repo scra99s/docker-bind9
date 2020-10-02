@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:latest
 
 # Install bind
 # Create bind directory structure
