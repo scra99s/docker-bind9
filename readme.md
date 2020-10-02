@@ -13,6 +13,7 @@ ___
 $ docker run --detach --network host --restart unless-stopped --name bind9mc bind9mc:latest
 ```
 ### __Test__
+___
 *may need to install bind-utils for your distro*
 ```bash
 $ dig @localhost jerra.io
