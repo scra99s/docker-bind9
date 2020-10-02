@@ -8,7 +8,7 @@ docker build --tag bind9:latest .
 
 __Run__
 ```bash
-docker run --network host -p 53/udp -p 53/tcp --name bind9 bind9:latest
+docker run --network host --restart unless-stopped --name bind9 bind9:latest
 ```
 
 __Info__
