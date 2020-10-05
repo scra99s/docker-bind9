@@ -1,1 +1,2 @@
 1. Build a docker-compose file for even less hassle
+2. Build a bash script for more flexabilty and not dealing with compose versioning wierdness
