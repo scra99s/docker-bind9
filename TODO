@@ -1,2 +1,3 @@
 1. Build a docker-compose file for even less hassle
 2. Build a bash script for more flexabilty and not dealing with compose versioning wierdness
+3. Add option to run macvlan instead of host docker networking
